@@ -1,9 +1,0 @@
-{
-  "/api/apply/route": "app/api/apply/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/blog/credit-card-processing-for-peptide-businesses/page": "app/blog/credit-card-processing-for-peptide-businesses/page.js"
-}
