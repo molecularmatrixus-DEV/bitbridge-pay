@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: 'Instrument Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Instrument Serif', serif;
+  }
+}
+
+@keyframes wanderOrb1 {
+  0% {
+    transform: translate(0vw, 0vh) scale(1);
+  }
+  33% {
+    transform: translate(50vw, 35vh) scale(1.1);
+  }
+  66% {
+    transform: translate(20vw, 70vh) scale(0.95);
+  }
+  100% {
+    transform: translate(0vw, 0vh) scale(1);
+  }
+}
+
+@keyframes wanderOrb2 {
+  0% {
+    transform: translate(70vw, 10vh) scale(1);
+  }
+  50% {
+    transform: translate(15vw, 55vh) scale(1.15);
+  }
+  100% {
+    transform: translate(70vw, 10vh) scale(1);
+  }
+}
+
+@keyframes wanderOrb3 {
+  0% {
+    transform: translate(30vw, 60vh) scale(1);
+  }
+  50% {
+    transform: translate(65vw, 20vh) scale(1.08);
+  }
+  100% {
+    transform: translate(30vw, 60vh) scale(1);
+  }
+}
+
+.animate-wander-1 {
+  animation: wanderOrb1 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-wander-2 {
+  animation: wanderOrb2 22s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-wander-3 {
+  animation: wanderOrb3 20s ease-in-out infinite;
+  will-change: transform;
+}

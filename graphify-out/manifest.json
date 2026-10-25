@@ -1,0 +1,56 @@
+{
+  "app/layout.tsx": {
+    "mtime": 1792863657.8599324,
+    "seen": 1792906517.017448,
+    "ast_hash": "74a4a566135cd79f4619e75c6705f3d6",
+    "semantic_hash": "74a4a566135cd79f4619e75c6705f3d6"
+  },
+  "app/page.tsx": {
+    "mtime": 1792863391.4229968,
+    "seen": 1792906517.017449,
+    "ast_hash": "f626aba136d0f4a0369924f4b3e6536d",
+    "semantic_hash": "f626aba136d0f4a0369924f4b3e6536d"
+  },
+  "components/Header.tsx": {
+    "mtime": 1792863497.7822597,
+    "seen": 1792906517.01745,
+    "ast_hash": "984887c1aea2aa5ba680fb35c26a355e",
+    "semantic_hash": "984887c1aea2aa5ba680fb35c26a355e"
+  },
+  "components/Hero.tsx": {
+    "mtime": 1792863389.2079916,
+    "seen": 1792906517.017451,
+    "ast_hash": "a526c23bf22d9e7c434d4cd754f3b54c",
+    "semantic_hash": "a526c23bf22d9e7c434d4cd754f3b54c"
+  },
+  "next-env.d.ts": {
+    "mtime": 1792863256.3803275,
+    "seen": 1792906517.017452,
+    "ast_hash": "a64595e6014adce3002d3bf762d2dbeb",
+    "semantic_hash": "a64595e6014adce3002d3bf762d2dbeb"
+  },
+  "package.json": {
+    "mtime": 1792862926.951555,
+    "seen": 1792906517.017452,
+    "ast_hash": "31f372434d4b86399cdaa8095a2bd3b5",
+    "semantic_hash": "31f372434d4b86399cdaa8095a2bd3b5"
+  },
+  "postcss.config.mjs": {
+    "mtime": 1792863654.1556954,
+    "seen": 1792906517.017453,
+    "ast_hash": "c56b5f3c12f777a86e2513f45daab56a",
+    "semantic_hash": "c56b5f3c12f777a86e2513f45daab56a"
+  },
+  "tailwind.config.ts": {
+    "mtime": 1792863485.8578084,
+    "seen": 1792906517.0174541,
+    "ast_hash": "904f59b4da57df39bef1fef57555fdd4",
+    "semantic_hash": "904f59b4da57df39bef1fef57555fdd4"
+  },
+  "tsconfig.json": {
+    "mtime": 1792862931.771104,
+    "seen": 1792906517.017455,
+    "ast_hash": "03391bd1893b0dcb6f9dd287b3471e66",
+    "semantic_hash": "03391bd1893b0dcb6f9dd287b3471e66"
+  }
+}
