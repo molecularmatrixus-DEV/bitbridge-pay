@@ -40,10 +40,10 @@ export default function Footer() {
               Gateway
             </div>
             <Link href="http://dashboard.bitbridgepay.com/" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-400 hover:text-white transition-colors font-medium">Merchant Dashboard</Link>
-            <Link href="#features" className="text-xs sm:text-sm hover:text-white transition-colors">Merchant Benefits</Link>
-            <Link href="#how-it-works" className="text-xs sm:text-sm hover:text-white transition-colors">How It Works</Link>
-            <Link href="#pricing" className="text-xs sm:text-sm hover:text-white transition-colors">Transparent Pricing</Link>
-            <Link href="#solutions" className="text-xs sm:text-sm hover:text-white transition-colors">High-Risk Verticals</Link>
+            <Link href="/#features" className="text-xs sm:text-sm hover:text-white transition-colors">Merchant Benefits</Link>
+            <Link href="/#how-it-works" className="text-xs sm:text-sm hover:text-white transition-colors">How It Works</Link>
+            <Link href="/#pricing" className="text-xs sm:text-sm hover:text-white transition-colors">Transparent Pricing</Link>
+            <Link href="/#industries" className="text-xs sm:text-sm hover:text-white transition-colors">High-Risk Verticals</Link>
           </div>
 
           {/* Links Column 2 */}
@@ -51,10 +51,10 @@ export default function Footer() {
             <div className="font-sans text-xs font-semibold text-white tracking-wider uppercase mb-1">
               Developers
             </div>
-            <Link href="#docs" className="text-xs sm:text-sm hover:text-white transition-colors">API Documentation</Link>
-            <Link href="#sdk" className="text-xs sm:text-sm hover:text-white transition-colors">Checkout SDK</Link>
-            <Link href="#webhooks" className="text-xs sm:text-sm hover:text-white transition-colors">Webhooks & Events</Link>
-            <Link href="#status" className="text-xs sm:text-sm hover:text-white transition-colors">Network Status</Link>
+            <Link href="/contact" className="text-xs sm:text-sm hover:text-white transition-colors">API Documentation</Link>
+            <Link href="/contact" className="text-xs sm:text-sm hover:text-white transition-colors">Checkout SDK</Link>
+            <Link href="/contact" className="text-xs sm:text-sm hover:text-white transition-colors">Webhooks & Events</Link>
+            <Link href="/blog" className="text-xs sm:text-sm hover:text-white transition-colors">Merchant Blog</Link>
           </div>
 
           {/* Links Column 3 */}
@@ -62,15 +62,20 @@ export default function Footer() {
             <div className="font-sans text-xs font-semibold text-white tracking-wider uppercase mb-1">
               Legal & Compliance
             </div>
-            <Link href="#privacy" className="text-xs sm:text-sm hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#terms" className="text-xs sm:text-sm hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="#aml" className="text-xs sm:text-sm hover:text-white transition-colors">AML & Compliance</Link>
-            <Link href="#security" className="text-xs sm:text-sm hover:text-white transition-colors">Security Overview</Link>
+            <Link href="/terms" className="text-xs sm:text-sm hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="text-xs sm:text-sm hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/refund-policy" className="text-xs sm:text-sm hover:text-white transition-colors">Refund Policy</Link>
+            <Link href="/compliance" className="text-xs sm:text-sm hover:text-white transition-colors">AML & KYC Compliance</Link>
+            <Link href="/disclaimer" className="text-xs sm:text-sm hover:text-white transition-colors">Risk Disclaimer</Link>
           </div>
 
         </div>
 
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div className="pt-8 pb-6 text-center text-xs text-slate-500 leading-relaxed max-w-4xl mx-auto border-b border-slate-800">
+          BitBridge Pay is a non-custodial software gateway. All card processing and digital asset conversions are fulfilled by licensed third-party liquidity infrastructure providers.
+        </div>
+
+        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <div>Built for high-performance cross-border merchants worldwide.</div>
           <div className="flex items-center gap-6">
             <span className="inline-flex items-center gap-1.5 text-emerald-400">
