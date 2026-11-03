@@ -119,7 +119,7 @@ export default function PricingAndOnboarding() {
               </div>
 
               <div className="flex items-baseline gap-2 mb-8 pb-8 border-b border-slate-100">
-                <span className="font-serif text-5xl sm:text-6xl text-slate-900 font-normal">4.0%</span>
+                <span className="font-serif text-5xl sm:text-6xl text-slate-900 font-normal">3.0%</span>
                 <span className="font-sans text-xs sm:text-sm text-slate-500 font-medium">Flat per-transaction fee • Zero monthly subscription fees</span>
               </div>
 

@@ -49,7 +49,7 @@ export default function BlogIndexPage() {
                 </h2>
 
                 <p className="font-sans text-xs sm:text-sm lg:text-base text-slate-600 leading-relaxed max-w-3xl mb-6">
-                  How RUO suppliers eliminate processor bans, chargeback disputes, and rolling reserves using automated card-to-crypto checkout with flat 4% fees.
+                  How RUO suppliers eliminate processor bans, chargeback disputes, and rolling reserves using automated card-to-crypto checkout with flat 3% fees.
                 </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-6 border-t border-slate-100">

@@ -15,7 +15,7 @@ export default function Post() {
       </h1>
 
       <p className="text-slate-600 text-sm sm:text-base leading-relaxed italic mb-8">
-        Why Tier-1 payment processors routinely terminate RUO peptide stores, how rolling reserves drain cash flow, and how modern card-to-crypto checkout delivers zero chargebacks with a flat 4.0% fee.
+        Why Tier-1 payment processors routinely terminate RUO peptide stores, how rolling reserves drain cash flow, and how modern card-to-crypto checkout delivers zero chargebacks with a flat 3.0% fee.
       </p>
 
       <div className="flex items-center gap-4 text-xs text-slate-500 border-y border-slate-200/80 py-3 my-8 font-mono">
@@ -93,7 +93,7 @@ export default function Post() {
               <td className="p-3 font-medium">Transaction Processing Fee</td>
               <td className="p-3">2.9% + $0.30 (Pre-ban)</td>
               <td className="p-3">8.5% – 12.0% + hidden</td>
-              <td className="p-3 text-blue-600 font-semibold">Flat 4.0%</td>
+              <td className="p-3 text-blue-600 font-semibold">Flat 3.0%</td>
             </tr>
             <tr>
               <td className="p-3 font-medium">Rolling Reserve Required</td>
@@ -141,7 +141,7 @@ export default function Post() {
         <div>
           <h3 className="text-2xl font-serif text-white mb-2">Eliminate Account Bans & Protect Cash Flow</h3>
           <p className="text-sm text-slate-300 max-w-xl">
-            Accept Visa and Mastercard with instant USDT settlement. Flat 4.0% rate, zero rolling reserves, and response in 4–6 hours.
+            Accept Visa and Mastercard with instant USDT settlement. Flat 3.0% rate, zero rolling reserves, and response in 4–6 hours.
           </p>
         </div>
         <div className="mt-6 sm:mt-0 flex-shrink-0">
