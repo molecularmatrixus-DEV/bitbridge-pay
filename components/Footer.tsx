@@ -39,6 +39,7 @@ export default function Footer() {
             <div className="font-sans text-xs font-semibold text-white tracking-wider uppercase mb-1">
               Gateway
             </div>
+            <Link href="http://dashboard.bitbridgepay.com/" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm text-blue-400 hover:text-white transition-colors font-medium">Merchant Dashboard</Link>
             <Link href="#features" className="text-xs sm:text-sm hover:text-white transition-colors">Merchant Benefits</Link>
             <Link href="#how-it-works" className="text-xs sm:text-sm hover:text-white transition-colors">How It Works</Link>
             <Link href="#pricing" className="text-xs sm:text-sm hover:text-white transition-colors">Transparent Pricing</Link>

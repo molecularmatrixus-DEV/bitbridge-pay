@@ -27,10 +27,12 @@ export default function CTASection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="#get-started"
+            href="http://dashboard.bitbridgepay.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-blue-600 text-white font-medium shadow-xl shadow-blue-600/25 hover:bg-blue-700 active:scale-[0.98] transition-all text-sm group"
           >
-            <span>Create Merchant Account</span>
+            <span>Access Portal</span>
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </Link>
 

@@ -50,16 +50,20 @@ export default function Header() {
         {/* Right Action Buttons */}
         <div className="hidden sm:flex items-center gap-3">
           <Link
-            href="/#apply"
+            href="http://dashboard.bitbridgepay.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-3 py-1.5 text-xs sm:text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors"
           >
-            Sign In
+            Dashboard
           </Link>
           <Link
-            href="/#apply"
+            href="http://dashboard.bitbridgepay.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-blue-600 text-white text-xs sm:text-sm font-medium shadow-sm shadow-blue-500/20 hover:bg-blue-700 active:scale-[0.98] transition-all"
           >
-            Get Started
+            Merchant Dashboard
           </Link>
         </div>
 
@@ -113,18 +117,22 @@ export default function Header() {
           </Link>
           <div className="pt-2 border-t border-slate-100 flex flex-col gap-2">
             <Link
-              href="/#apply"
+              href="http://dashboard.bitbridgepay.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center py-2.5 rounded-xl bg-slate-100 text-slate-800 font-medium"
             >
-              Sign In
+              Dashboard
             </Link>
             <Link
-              href="/#apply"
+              href="http://dashboard.bitbridgepay.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center py-2.5 rounded-xl bg-blue-600 text-white font-medium shadow-md shadow-blue-600/20"
             >
-              Get Started
+              Merchant Dashboard
             </Link>
           </div>
         </div>

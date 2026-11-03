@@ -141,10 +141,12 @@ export default function PricingAndOnboarding() {
                 <span>$199 setup fee paid only after approval</span>
               </div>
               <a
-                href="#get-started"
+                href="http://dashboard.bitbridgepay.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-blue-600 text-white font-medium text-xs sm:text-sm shadow-md shadow-blue-600/20 hover:bg-blue-700 active:scale-[0.98] transition-all group"
               >
-                <span>Apply For Account</span>
+                <span>Launch App</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>

@@ -124,10 +124,12 @@ export default function Hero() {
             {/* CTA Buttons Row */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 w-full sm:w-auto mt-1 mb-3">
               <Link
-                href="#apply"
+                href="http://dashboard.bitbridgepay.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-blue-600 text-white font-medium shadow-lg shadow-blue-600/25 hover:bg-blue-700 active:scale-[0.98] transition-all text-xs sm:text-sm group"
               >
-                <span>Start Accepting Cards</span>
+                <span>Access Dashboard</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Link>
 
